@@ -1,0 +1,51 @@
+CREATE SCHEMA FoodBank;
+use FoodBank;
+CREATE TABLE Customer
+(CustomerID int NOT NULL,
+firstName varchar(45),
+lastName varchar(45),
+Address varchar(70),
+City varchar(45),
+CONSTRAINT primary key (CustomerID))ENGINE=InnoDB;
+CREATE TABLE Facility
+(FacilityID int NOT NULL,
+Address varchar(70),
+City varchar(45),
+`Function` varchar(45),
+CONSTRAINT primary key(FacilityID))ENGINE=InnoDB;
+CREATE TABLE Provider
+(ProviderID int NOT NULL,
+Business varchar(50),
+CONSTRAINT primary key (ProviderID))ENGINE=InnoDB;
+CREATE TABLE Product
+(ProductID int NOT NULL,
+Product varchar(45),
+DateArrived timestamp(6),
+FacilityID int,
+ProviderID int,
+CustomerID int,
+CONSTRAINT primary key (ProductID),
+CONSTRAINT foreign key (FacilityID) REFERENCES Facility(FacilityID),
+CONSTRAINT foreign key (ProviderID) REFERENCES Provider(ProviderID),
+CONSTRAINT foreign key (CustomerID)REFERENCES Customer(CustomerID))ENGINE=InnoDB;
+CREATE TABLE Employee
+(EmployeeID int NOT NULL,
+firstName varchar(45),
+lastName varchar(45),
+Position varchar(45),
+Department varchar(45),
+FacilityID int,
+CONSTRAINT PRIMARY KEY (EmployeeID),
+CONSTRAINT FOREIGN KEY (FacilityID) REFERENCES Facility(FacilityID))ENGINE=InnoDB;
+CREATE TABLE Volunteer
+(VolunteerID int NOT NULL,
+firstName varchar(45),
+lastName varchar(45),
+DateWorked Datetime,
+HoursWorked int,
+FacilityID int,
+EmployeeID int,
+CONSTRAINT PRIMARY KEY (VolunteerID),
+CONSTRAINT FOREIGN KEY (FacilityID) REFERENCES Facility(FacilityID),
+CONSTRAINT FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID))ENGINE=InnoDB;
+
