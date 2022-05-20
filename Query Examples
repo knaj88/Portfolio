@@ -20,8 +20,8 @@ FROM Volunteer
 INNER JOIN Employee USING (EmployeeID)
 INNER JOIN Facility ON Volunteer.facilityID=facility.facilityID;
 
-Employee Volunteer	city	      dateworked
-Myers	      Grace	    Hayward	    11/26/21 0:00
-Sullivan	  Horton	    San Leandro	11/25/21 0:00
-Lovecraft	  Gross	    Alameda	    11/24/21 0:00
-Stewart	    Romanoff	  Oakland	    11/23/21 0:00
+Employee    Volunteer	  city	          dateworked
+Myers	     Grace	   Hayward	    11/26/21 0:00
+Sullivan     Horton	   San Leandro	    11/25/21 0:00
+Lovecraft    Gross	   Alameda	    11/24/21 0:00
+Stewart	     Romanoff	   Oakland	    11/23/21 0:00
