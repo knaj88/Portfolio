@@ -1,0 +1,33 @@
+INSERT INTO Customer Values
+(101, 'Mary', 'Smith', '1234 Fairview Dr.', 'San Leandro'),
+(102, 'Greg', 'Baker', '763 Shoreline Ct.', 'Oakland'),
+(103, 'Bill', 'Robertson', '9302 East Ave.', 'Hayward'),
+(104, 'Sarah', 'Thompson', '2940 E24 St', 'Berkeley'),
+(105, 'John', 'Doe', '6938 Adeline Dr.', 'Castro Valley');
+INSERT INTO Facility Values
+(123, '2894 Center St', 'Hayward', 'Food Pantry'),
+(124, '3482 Addison Dr', 'San Leandro', 'Food Pantry'),
+(125, '7492 High St', 'Alameda', 'Food Bank'),
+(126, '2949 Mayfield Ln', 'Oakland', 'Food Bank');
+INSERT INTO Provider Values
+(6728, 'Safeway'),
+(6482, 'Whole Foods'),
+(6729, 'Sprouts'),
+(6483, 'Luckys'),
+(6731, 'Target');
+INSERT INTO Product values
+(1456, 'Green Beans', '2021-12-03', 124, 6482, 101),
+(1567, 'Bananas', '2021-12-04', 126, 6728, 104),
+(1568, 'Pinto Beans', '2021-12-05', 125, 6483, 102),
+(1428, 'Brussel Sprouts', '2021-12-06', 123, 6729, 103),
+(1489, 'Milk', '2021-12-07', 125, 6731, 105);
+INSERT INTO Employee values
+(17428, 'Elizabeth', 'Myers', 'Manager', 123),
+(17429, 'Clementine', 'Sullivan', 'Associate', 124),
+(17430, 'Lena', 'Lovecraft', 'Manager', 125),
+(17431, 'Martha', 'Stewart', 'Associate', 126);
+INSERT INTO Volunteer values
+(3485, 'Natasha', 'Romanoff', '2021-11-23', 2, 126, 17431),
+(3486, 'Josh', 'Gross', '2021-11-24', 3, 125, 17430),
+(3487, 'Mark', 'Horton', '2021-11-25', 1, 124, 17429),
+(3488, 'Jason', 'Grace', '2021-11-26', 4, 123, 17428);
