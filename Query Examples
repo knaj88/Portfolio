@@ -1,0 +1,11 @@
+SELECT firstName, lastName, customer.city as 'Customer City', facility.city as 'Facility City', product, business
+FROM Product
+INNER JOIN Facility USING (FacilityID)
+INNER JOIN Customer USING (CustomerID)
+INNER JOIN Provider USING (ProviderID);
+
+
+SELECT employee.lastname as 'Employee', volunteer.lastName as 'Volunteer', facility.city, dateworked
+FROM Volunteer
+INNER JOIN Employee USING (EmployeeID)
+INNER JOIN Facility ON Volunteer.facilityID=facility.facilityID;
