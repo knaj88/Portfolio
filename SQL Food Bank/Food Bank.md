@@ -3,4 +3,7 @@ For a project in my Database Management class, I created a database of a fiction
 ## ER Diagram
 ![Food Bank Model](https://user-images.githubusercontent.com/105752132/171258811-deb81b83-25e9-4731-a033-512ae42fec21.png)
 
-Once I had this information, I was able to use SQL to create these parties (or entities) as individual tables in a schema. 
+Once I had this information, I was able to use SQL to create these parties (or entities) as individual tables in a schema as shown below.
+![Food Bank Data](https://user-images.githubusercontent.com/105752132/171525379-1075f18b-f9e3-4a1e-932c-b26dc378b12d.png)
+
+With this information in a schema, I am able to use SQL queries to pull out filtered data from one or more of the tables.
