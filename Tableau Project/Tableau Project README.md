@@ -28,7 +28,7 @@ This visualization is a treemap that shows the divides states between gender dom
 (Code for previous image)
 
 
-Since the images of the visualizations are not able to be interactive, here is a link to the Tableau Public page where this workbook is posted so you can explore the data by hovering over and clicking on the visualizations to view more information.
+Since the visualizations are not able to be interactive, here is a link to the Tableau Public page where this workbook is posted so you can explore the data by hovering over and clicking on the visualizations to view more information.
 
 https://public.tableau.com/views/TableauProject_16544566933080/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 
