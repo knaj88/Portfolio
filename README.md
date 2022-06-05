@@ -1,0 +1,2 @@
+# Portfolio
+This Portfolio contains a few of the projects I have completed to showcase my skills and computer programs I am familiar with. I have created an Avocado Picking Log using Excel to keep track of how many avocados picked per variety over the course of a year. I created a database using mySQL Workbench that medels different aspects of a fictiona food bank. I also made a Tableau workbook that compares the number of dog vs cat owners by age, gender, and state. Each project is in its own folder with contains a README file that gives an explanation of the project.  
