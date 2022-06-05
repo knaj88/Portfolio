@@ -6,4 +6,6 @@ For a project in my Database Management class, I created a database of a fiction
 Once I had this information, I was able to use SQL to create these parties (or entities) as individual tables in a schema as shown below.
 ![Food Bank Data](https://user-images.githubusercontent.com/105752132/171525379-1075f18b-f9e3-4a1e-932c-b26dc378b12d.png)
 
-With this information in a schema, I am able to use SQL queries to pull out filtered data from one or more of the tables.
+With this information in a schema, I am able to use SQL queries to create new tables using the data from one or more of the existing tables.
+![Query](https://user-images.githubusercontent.com/105752132/172071526-472ffe12-ffbe-4988-8ee3-eb5aa719e30b.png)
+
