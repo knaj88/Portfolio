@@ -4,7 +4,7 @@ For my family's farm, I created a picking log to keep track of how many avocados
 Below is an example of this with the Lamb Hass avocado variety. Each Lamb Hass tree is represented by a box highlighted in red. When picking Lamb Hass, we print this page out and write in with pen or pencil how many avocados we picked from each tree.
 ![Lamb Hass Map](https://user-images.githubusercontent.com/105752132/172064123-524ca863-1990-4254-a733-4f2f7a4ce43f.png)
 
-Once we finish picking either some or all of this variety, we can plug in the numbers to the other file I created which calculates the total avocados for that variety. I named this Excel workbook 'Avocado Log' which gets duplicated to be used for different years. Below is an example of this for the Lamb Hass trees. Not all of the trees got picked as of this data but what is there is totaled at the bottom of the sheet.
+Once we finish picking either some or all of this variety, we can plug in the numbers to another file I created which calculates the total avocados for that variety. I named this Excel workbook 'Avocado Log Master' which gets duplicated to be used for different years. Below is an example of this for the Lamb Hass trees in 2021. Not all of the trees got picked as of this data but what is there is totaled at the bottom of the sheet.
 ![Lamb Hass Log](https://user-images.githubusercontent.com/105752132/172065730-b3934066-520a-449d-973c-0b99ddc1c856.png)
 
 
